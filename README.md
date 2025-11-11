@@ -15,6 +15,8 @@ yarn start    # Starts both client and server concurrently
 Server runs on **http://localhost:4000**  
 Frontend runs on **http://localhost:5173**
 
+**Hot Reload Enabled**: Both client and server automatically reload when you make changes to the code.
+
 ## Individual Setup (Optional)
 
 If you prefer to run them separately:
