@@ -3,21 +3,38 @@
 Simple full-stack example connecting a React frontend to a Neon PostgreSQL database via an Express API.
 Uses the `"Simple_Members".members` table.
 
-## Setup
+## Quick Start
 
-### 1. Backend
+From the root directory:
+
+```bash
+yarn install  # Installs dependencies for root, client, and server
+yarn start    # Starts both client and server concurrently
+```
+
+Server runs on **http://localhost:4000**  
+Frontend runs on **http://localhost:5173**
+
+## Individual Setup (Optional)
+
+If you prefer to run them separately:
+
+### Backend
 ```bash
 cd server
 yarn install
 yarn dev
 ```
 
-### 2. Frontend
+### Frontend
 ```bash
 cd client
 yarn install
 yarn dev
 ```
 
-Server runs on **http://localhost:4000**  
-Frontend runs on **http://localhost:5173**
+Or from the root:
+```bash
+yarn server  # Run server only
+yarn client   # Run client only
+```

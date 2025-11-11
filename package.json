@@ -1,0 +1,14 @@
+{
+  "name": "ctc-workshop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "concurrently \"cd client && yarn install\" \"cd server && yarn install\"",
+    "start": "concurrently \"cd client && yarn dev\" \"cd server && yarn dev\"",
+    "client": "cd client && yarn dev",
+    "server": "cd server && yarn dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
