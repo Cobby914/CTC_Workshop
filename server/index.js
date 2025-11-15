@@ -20,10 +20,7 @@ app.get('/api/members', async (req, res) => {
     // 2. Return rows as JSON: res.json(result.rows)
     // Hint:
     // const result = await pool.query(`
-    //   SELECT member_id, first_name, last_name, pronouns,
-    //          email, phone_number, year_of_study, role
-    //   FROM "Simple_Members".members
-    //   ORDER BY last_name, first_name
+    // 
     // `);
     res.status(501).json({ error: 'Not implemented yet' });
   } catch (err) {
